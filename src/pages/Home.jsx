@@ -16,14 +16,14 @@ export const Home = () => {
     })
 
     return (
-        <Container>
+        <Wrapper>
             <FormSearch setWeatherData={setWeatherData} />
             <WeatherDetals weatherData={weatherData}/>
-        </Container>
+        </Wrapper>
     )
 }
 
-const Container = styled.main`
+const Wrapper = styled.main`
     max-width: 1200px;
     width: 100%;
     background-color: #fff;
